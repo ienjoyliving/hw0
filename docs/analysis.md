@@ -1,7 +1,8 @@
 ## Исходный код
-# Исходный процедурный код (только для чтения и анализа)
 
+```python
 import random
+
 
 def play_guess_number_procedural():
     secret = random.randint(1, 100)
@@ -24,7 +25,9 @@ def play_guess_number_procedural():
             return
     print(f"Попытки закончились. Было загадано: {secret}")
 
+
 print("Функция определена, готова к анализу")
+```
 
 ## 1.1. Таблица анализа
 
